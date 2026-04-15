@@ -7,7 +7,6 @@
 A pip-installable Python CLI tool to track, log, and analyze LLM token usage and cost.
 # LLM Cost Tracker 🚀
 
-A Python CLI tool to track and monitor LLM token usage and cost.
 
 ## Features
 - Track token usage
