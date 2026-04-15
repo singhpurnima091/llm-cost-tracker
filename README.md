@@ -6,12 +6,22 @@
 
 A pip-installable Python CLI tool to track, log, and analyze LLM token usage and cost.
 
-## Features
-- Track token usage
-- Calculate cost
-- Store logs in JSON
-- Generate reports
+## ✨ Features
 
+- 📊 Track LLM token usage and cost
+- 🧾 Store usage logs in JSON format
+- 📅 View daily usage reports (`--today`)
+- 🚨 Set cost limits and get alerts (`--limit`)
+- 📤 Export usage data to CSV (`--export`)
+- ⚡ Simple and fast CLI interface
+
+## 💡 Use Cases
+
+- Monitor OpenAI / LLM API spending
+- Track usage across projects or teams
+- Prevent unexpected API costs
+- Analyze usage trends over time
+  
 ## Installation
 
 ```bash
