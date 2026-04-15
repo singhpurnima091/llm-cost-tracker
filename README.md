@@ -1,3 +1,10 @@
+# 🚀 LLM Cost Tracker
+
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![CLI](https://img.shields.io/badge/interface-CLI-green)
+![License](https://img.shields.io/badge/license-MIT-orange)
+
+A pip-installable Python CLI tool to track, log, and analyze LLM token usage and cost.
 # LLM Cost Tracker 🚀
 
 A Python CLI tool to track and monitor LLM token usage and cost.
@@ -26,8 +33,6 @@ Cost: $0.004000
 Total Requests: 3
 Total Tokens Used: 7000
 Total Cost: $0.014000
-![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
-![CLI](https://img.shields.io/badge/interface-CLI-green)
-![License](https://img.shields.io/badge/license-MIT-orange)
+
 👨‍💻 Author
 Purnima Singh
