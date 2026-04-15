@@ -26,5 +26,8 @@ Cost: $0.004000
 Total Requests: 3
 Total Tokens Used: 7000
 Total Cost: $0.014000
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![CLI](https://img.shields.io/badge/interface-CLI-green)
+![License](https://img.shields.io/badge/license-MIT-orange)
 👨‍💻 Author
 Purnima Singh
