@@ -5,8 +5,6 @@
 ![License](https://img.shields.io/badge/license-MIT-orange)
 
 A pip-installable Python CLI tool to track, log, and analyze LLM token usage and cost.
-# LLM Cost Tracker 🚀
-
 
 ## Features
 - Track token usage
