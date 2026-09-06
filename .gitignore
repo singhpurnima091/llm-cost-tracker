@@ -6,3 +6,4 @@ usage_log.json
 usage_report.csv
 build/
 dist/
+.env

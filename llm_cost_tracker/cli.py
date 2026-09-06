@@ -2,6 +2,7 @@ import argparse
 from llm_cost_tracker.tracker import calculate_cost
 from llm_cost_tracker.logger import log_usage
 from llm_cost_tracker.report import generate_report
+from llm_cost_tracker.api_tracker import tracked_chat
 
 def main():
     parser = argparse.ArgumentParser(description="LLM Cost Tracker")
@@ -12,8 +13,16 @@ def main():
     parser.add_argument("--today", action="store_true", help="Show today's usage")
     parser.add_argument("--limit", type=float, help="Cost limit alert")
     parser.add_argument("--export", action="store_true", help="Export data to CSV")
+    parser.add_argument("--auto", type=str, help="Auto track prompt")
 
     args = parser.parse_args()
+    
+    if args.auto:
+        from llm_cost_tracker.api_tracker import tracked_chat
+
+        response = tracked_chat(args.auto)
+        print("\nResponse:\n", response)
+    
 
     if args.export:
         from llm_cost_tracker.report import export_to_csv
